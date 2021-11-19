@@ -23,6 +23,9 @@
   nav ul {
     display: none;
   }
+  nav #up {
+    display: none;
+  }
   #nav2 {
     display: none;
   }
@@ -36,11 +39,11 @@
     margin: auto;
   }
   header .women {
-    width: 350px;
+    width: 300px;
     height: auto;
     position: absolute;
-    right: -25%;
-    top: 95px;
+    right: -20%;
+    top: 150px;
     z-index: 0;
     overflow: hidden;
   }
@@ -53,7 +56,8 @@
     margin: 5% 0;
   }
   header .div p {
-    font-size: 14px;
+    width: 60%;
+    font-size: 12px;
     margin: 5% 0;
   }
   header .div .btn {
@@ -382,14 +386,14 @@
     position: relative;
   }
   #valyuta .table .table-left {
-    width: 480px;
+    width: 35%;
     height: 71px;
   }
   #valyuta .table .table-right {
     width: 330px;
     height: 71px;
     position: relative;
-    left: 45px;
+    left: 25px;
   }
   #valyuta .container .table p {
     font-size: 12px;
@@ -415,6 +419,7 @@
     display: none;
   }
   #little .container {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -424,7 +429,11 @@
   #little .container a {
     font-size: 12px;
   }
+
   #call {
+    display: none;
+  }
+  /* #call {
     width: 100%;
     height: 109px;
     border-top: 2px solid #999;
@@ -434,13 +443,19 @@
   #call .container {
     width: 90%;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
+  #call .container div {
+    display: flex;
+  }
+    #call .container div
+  #call .container h2 {
+    font-size: 20px;
+  } */
   #footer-bg {
     width: 100%;
-    height: 160vh;
+    height: 180vh;
     background-color: #031c29;
     position: relative;
     top: 110vh;
@@ -466,6 +481,7 @@
   #end {
     position: relative;
     top: 110vh;
+    height: 50vh;
   }
   #end .container {
     width: 90%;
