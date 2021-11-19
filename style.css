@@ -404,6 +404,9 @@ p {
   width: 1050px;
   margin: auto;
 }
+#valyuta .container h2{
+  font-size: 31.25px;
+}
 
 #valyuta .table {
   display: flex;

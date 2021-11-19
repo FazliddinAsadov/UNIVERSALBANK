@@ -207,20 +207,20 @@
 
   #text {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: #f8f8f8;
     position: relative;
     top: 50vh;
   }
   #text .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 
   #text .container div {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
   #text .container div h1 {
@@ -247,14 +247,14 @@
     height: auto;
     position: relative;
     top: 10%;
-    left: 25%;
+    left: 15%;
   }
   #text .container .img2 {
     width: 201px;
     height: auto;
     position: relative;
     top: 0px;
-    left: -5%;
+    left: -15%;
   }
   #text .container .img3 {
     width: 205px;
@@ -262,5 +262,144 @@
     position: relative;
     top: 0;
     left: -70%;
+  }
+
+  #carusel {
+    margin-top: 60vh;
+  }
+  #carusel .container h1 {
+    width: 60%;
+    font-size: 20px;
+    margin: 2% 5%;
+  }
+  #carusel .container p {
+    width: 60%;
+    margin: 0 5%;
+    font-size: 14px;
+  }
+  #carusel .container {
+    width: 90%;
+    margin: auto;
+  }
+  #carusel .card {
+    margin: 10vh 5%;
+    margin-top: 10vh;
+    width: 300px;
+    height: 410px;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: repeat(4);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    /* overflow-x: auto; */
+  }
+  #carusel .content {
+    width: 90%;
+    margin: auto;
+  }
+  #carusel .card img {
+    width: 180px;
+    height: 180px;
+    margin: 10%;
+  }
+  #carusel .card p {
+    width: 80%;
+    font-size: 16px;
+    margin: 2% 10%;
+  }
+  #carusel .card h2 {
+    font-size: 20px;
+    margin: 0 10%;
+  }
+  #carusel .card .btn {
+    margin: 5% 10%;
+    width: 70%;
+    padding: 8px 15%;
+  }
+  #carusel .card .btn.active {
+    background-color: #031c29;
+    color: #fff;
+  }
+
+  #text2 {
+    width: 100%;
+    height: 155vh;
+    background-color: #f8f8f8;
+    margin-top: 30vh;
+    position: relative;
+    top: 200vh;
+  }
+  #text2 .container {
+    width: 90%;
+    height: 522px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10vh;
+  }
+  #text2 .container h1 {
+    font-size: 22px;
+    margin: 5%;
+    width: 80%;
+  }
+  #text2 .container p {
+    margin: 5%;
+    width: 70%;
+    font-size: 14px;
+  }
+  #text2 .container span {
+    opacity: 0.5;
+  }
+  #text2 .container a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 5%;
+    font-size: 14px;
+  }
+  #text2 .container .iteam {
+    margin-top: 5%;
+  }
+
+  #text2 .container .iteam2 {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    right: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #text2 .container .img1 {
+    margin: 5% 12%;
+  }
+
+  #valyuta {
+    margin-top: 15vh;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    top: 200vh;
+  }
+  #valyuta .container h2 {
+    font-size: 22px;
+    margin: 0 5%;
+  }
+
+
+
+
+
+  
+  section .tolov {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 400vh;
+  }
+  #little {
+    position: relative;
+    top: 300vh;
+  }
+  footer {
+    position: relative;
+    top: 400vh;
   }
 }
