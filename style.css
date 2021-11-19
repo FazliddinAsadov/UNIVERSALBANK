@@ -42,7 +42,9 @@ select {
 nav select {
   border: none;
 }
-
+#nav-menu.active {
+  display: block;
+}
 #nav2 {
   width: 100%;
   height: 10vh;
@@ -305,8 +307,6 @@ p {
   background-color: #031c29;
   color: #fff;
 }
-
-
 
 #carusel {
   margin-top: 20vh;
