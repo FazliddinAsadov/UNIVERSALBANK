@@ -404,7 +404,7 @@ p {
   width: 1050px;
   margin: auto;
 }
-#valyuta .container h2{
+#valyuta .container h2 {
   font-size: 31.25px;
 }
 
@@ -443,7 +443,7 @@ td {
 }
 
 section .tolov {
-  width: 1050px;
+  width: 80%;
   margin: auto;
 }
 section .tolov p {
@@ -452,7 +452,7 @@ section .tolov p {
 }
 
 #little {
-  width: 1050px;
+  width: 80%;
   margin: auto;
 }
 #little .container {
