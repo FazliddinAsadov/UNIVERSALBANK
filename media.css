@@ -1,6 +1,7 @@
 @media screen and (max-width: 500px) {
   body {
     position: relative;
+    overflow: hidden;
   }
   nav {
     width: 100%;
@@ -9,12 +10,16 @@
     overflow: hidden;
   }
   nav #logo {
-    width: 150px;
+    width: 120px;
     height: auto;
   }
   nav .container {
     width: 80%;
     margin: auto;
+  }
+  nav .div {
+    margin: 0;
+    padding: 0;
   }
   nav ul {
     display: none;
@@ -36,7 +41,7 @@
     height: auto;
     position: absolute;
     right: -25%;
-    top: 65px;
+    top: 95px;
     z-index: 0;
     overflow: hidden;
   }
@@ -60,13 +65,14 @@
     background-color: #031c29;
     color: #fff;
     border: 1px solid #fff;
+    z-index: 1;
   }
   header section {
     width: 80%;
     position: absolute;
     top: 65%;
     left: 10%;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
   }
   header section .container {
     width: 100%;
@@ -85,5 +91,112 @@
   }
   header section .iteam a {
     font-size: 14px;
+  }
+
+  #services {
+    margin-top: 30vh;
+    width: 100%;
+    height: 300vh;
+    position: relative;
+  }
+  #services .container {
+    width: 80%;
+    margin: auto;
+  }
+  #services .container h1 {
+    font-size: 22px;
+  }
+  #services .container p {
+    width: 70%;
+    font-size: 14px;
+    position: absolute;
+    top: 1%;
+  }
+  #services .box {
+    width: 80%;
+    margin: auto;
+  }
+  #services .box-1 {
+    width: 80%;
+    height: 40vh;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    color: #fff;
+  }
+
+  #services .box-1 h1 {
+    width: 71%;
+    margin: 2% 5%;
+    margin-top: 35%;
+  }
+  #services .box-1 p {
+    width: 60%;
+    margin: 2% 5%;
+  }
+  #services .box-2 {
+    width: 80%;
+    height: 40vh;
+    position: absolute;
+    top: 80vh;
+    left: 8%;
+    color: #fff;
+  }
+  #services .box-2 img {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    z-index: 0;
+  }
+  #services .box-2 h1 {
+    width: 60%;
+    margin: 2% 5%;
+
+    margin-top: 35%;
+    z-index: 10;
+  }
+  #services .box-2 p {
+    width: 90%;
+    margin: 2% 5%;
+  }
+  #services .box-3 {
+    width: 80%;
+    height: 40vh;
+    position: absolute;
+    top: 135vh;
+    left: 8%;
+    color: #fff;
+  }
+  #services .box-3 h1 {
+    width: 60%;
+    margin: 2% 5%;
+    margin-top: 45%;
+  }
+  #services .box-3 p {
+    width: 90%;
+    margin: 2% 5%;
+  }
+  #services .box-4 {
+    width: 80%;
+    height: 40vh;
+    position: absolute;
+    top: 190vh;
+    left: 8%;
+    color: #fff;
+  }
+  #services .box-4 h1 {
+    width: 60%;
+    margin: 2% 5%;
+    margin-top: 45%;
+  }
+  #text {
+    width: 100%;
+    height: 60vh;
+    margin-top: vh;
+    background-color: #f8f8f8;
+    position: relative;
+    top: 200vh;
   }
 }
