@@ -106,6 +106,7 @@ header .div .btn {
   background-color: #031c29;
   color: #fff;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 header section {
   width: 1050px;
@@ -305,6 +306,7 @@ p {
   padding: 10px 15%;
   background-color: #031c29;
   color: #fff;
+  cursor: pointer;
 }
 
 #carusel {
@@ -358,10 +360,12 @@ p {
 #carusel .card .btn {
   padding: 10px 25%;
   margin: 10% 0;
+  cursor: pointer;
 }
 #carusel .card .btn.active {
   background-color: #031c29;
   color: #fff;
+  cursor: pointer;
 }
 
 #text2 {
